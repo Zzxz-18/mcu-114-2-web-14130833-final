@@ -45,7 +45,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: 'C:\mcu-114-2-web-14130833-final'
+          path: '.\dist\mcu-114-2-web-14130833-final\browser'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
